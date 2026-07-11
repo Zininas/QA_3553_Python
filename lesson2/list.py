@@ -57,7 +57,6 @@ names = ['Alexander', 'Bob', 'Tom']
 print(sorted(names))
 print(sorted(names,key=len))
 
-fruits =['orange', 'peach','lemon']
 fruits.append("orange")
 print(fruits)
 
