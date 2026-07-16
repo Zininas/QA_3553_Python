@@ -29,7 +29,7 @@ def print_sublist_reverse(my_list, start, finish):
     if not isinstance(my_list, list) or not isinstance(start, int) or not isinstance(finish, int) or not my_list:
         print("Wrong args")
         return
-    if start < 0 or finish < 0 or start >= len(my_list) or finish >= len(my_list) or start > finish:
+    if start < 0 or finish >= len(my_list) or start > finish:
         print("Wrong args")
         return
     result = my_list.copy()
