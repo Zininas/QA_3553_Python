@@ -21,8 +21,8 @@ class Product:
             self.quantity -= amount
         else:
             return "Not enough products"
-laptop = Product("Laptop",500,5)
 
+laptop = Product("Laptop",500,5)
 
 print(laptop.buy(2))
 print("Remaining balance after purchase 2 шт.:", laptop.quantity)
